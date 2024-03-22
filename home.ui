@@ -146,7 +146,7 @@ border-radius:30px
               </size>
              </property>
              <property name="styleSheet">
-              <string notr="true">image: url(:/all/img/logo.png);
+              <string notr="true">image: url(:/all/img/logo_liuying.jpg);
 border:2px solid rgb(255, 255, 255);
 border-radius:10px</string>
              </property>
@@ -321,8 +321,7 @@ background-color: rgba(114, 129, 214, 59);
                 <string>Hide</string>
                </property>
                <property name="icon">
-                <iconset theme="zoom-out">
-                 <normaloff>.</normaloff>.</iconset>
+                <iconset theme="zoom-out"/>
                </property>
                <property name="autoDefault">
                 <bool>false</bool>
@@ -635,7 +634,7 @@ background-color: rgba(255, 255, 255,0);
                 <string notr="true">font: 700 italic 11pt &quot;Segoe UI&quot;;</string>
                </property>
                <property name="text">
-                <string>YoloSide App  –  A Graphical User Interface For YoloV8</string>
+                <string>IACTechPlat©Chip Packaging Defect Detection System【Powered by YOLOv7】</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignCenter</set>
@@ -857,6 +856,7 @@ QPushButton:pressed {
                  <property name="font">
                   <font>
                    <pointsize>16</pointsize>
+                   <italic>false</italic>
                    <bold>true</bold>
                   </font>
                  </property>
@@ -864,7 +864,7 @@ QPushButton:pressed {
                   <string notr="true">padding-left:12px;</string>
                  </property>
                  <property name="text">
-                  <string>Detection</string>
+                  <string>Dashboard/仪表盘</string>
                  </property>
                 </widget>
                </item>
@@ -1845,7 +1845,7 @@ QPushButton:hover{
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset>
+                     <iconset resource="resources.qrc">
                       <normaloff>:/all/img/begin.png</normaloff>
                       <normalon>:/all/img/pause.png</normalon>:/all/img/begin.png</iconset>
                     </property>
@@ -2093,8 +2093,7 @@ font: 700 13pt &quot;Nirmala UI&quot;;
                       <string>Model</string>
                      </property>
                      <property name="icon">
-                      <iconset theme="zoom-out">
-                       <normaloff>.</normaloff>.</iconset>
+                      <iconset theme="zoom-out"/>
                      </property>
                      <property name="autoDefault">
                       <bool>false</bool>
@@ -2274,8 +2273,7 @@ font: 700 13pt &quot;Nirmala UI&quot;;
                       <string>IOU</string>
                      </property>
                      <property name="icon">
-                      <iconset theme="zoom-out">
-                       <normaloff>.</normaloff>.</iconset>
+                      <iconset theme="zoom-out"/>
                      </property>
                      <property name="autoDefault">
                       <bool>false</bool>
@@ -2502,8 +2500,7 @@ font: 700 13pt &quot;Nirmala UI&quot;;
                       <string>Conf</string>
                      </property>
                      <property name="icon">
-                      <iconset theme="zoom-out">
-                       <normaloff>.</normaloff>.</iconset>
+                      <iconset theme="zoom-out"/>
                      </property>
                      <property name="autoDefault">
                       <bool>false</bool>
@@ -2730,8 +2727,7 @@ font: 700 13pt &quot;Nirmala UI&quot;;
                       <string>Delay(ms)</string>
                      </property>
                      <property name="icon">
-                      <iconset theme="zoom-out">
-                       <normaloff>.</normaloff>.</iconset>
+                      <iconset theme="zoom-out"/>
                      </property>
                      <property name="autoDefault">
                       <bool>false</bool>
@@ -2958,8 +2954,7 @@ font: 700 13pt &quot;Nirmala UI&quot;;
                       <string>Save</string>
                      </property>
                      <property name="icon">
-                      <iconset theme="zoom-out">
-                       <normaloff>.</normaloff>.</iconset>
+                      <iconset theme="zoom-out"/>
                      </property>
                      <property name="autoDefault">
                       <bool>false</bool>
@@ -3093,12 +3088,20 @@ padding-left: 10px;
              </property>
              <item>
               <widget class="QLabel" name="status_bar">
+               <property name="font">
+                <font>
+                 <family>Microsoft YaHei</family>
+                 <pointsize>11</pointsize>
+                 <italic>false</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
                <property name="styleSheet">
-                <string notr="true">font: 700 11pt &quot;Segoe UI&quot;;
+                <string notr="true">font: 700 11pt &quot;Microsoft YaHei&quot;;
 color: rgba(0, 0, 0, 140);</string>
                </property>
                <property name="text">
-                <string>Welcome!</string>
+                <string>欢迎使用！</string>
                </property>
               </widget>
              </item>
